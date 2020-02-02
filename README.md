@@ -1,4 +1,4 @@
-# Cartographie
+# Cartographie d'emsemble des équipements sportifs
 1. Importation du package
 
 2. Importation de la base de données : fichier “EquipementSportif.csv", "data.Rdata"
