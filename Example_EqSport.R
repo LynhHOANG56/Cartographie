@@ -14,6 +14,6 @@ formes$EqSport2018 <- concordance
 couleurs <- colorRampPalette(c('white', 'orange'))
 pdf(file="EqSport2018.pdf" ,width = 7, height = 7) 
 spplot(formes, "EqSport2018", col.regions=couleurs(30), 
-       main=list(label="Nombres d'équipements sportifs selon les départements, 2018",cex=1.4))
+       main=list(label="Nombres d'équipements sportifs selon les départements, Insee 2018",cex=1.4))
 
 dev.off()
