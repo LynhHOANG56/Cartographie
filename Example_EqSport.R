@@ -7,7 +7,7 @@ load("data.RData")
 formes <- getData(name="GADM", country="FRA", level=2)
 
 #3. Établissement de l'index
-concordance <- data[idx, EqSport2018]; concordance
+concordance <- data[idx, "EqSport2018"]; concordance
 formes$EqSport2018 <- concordance
 
 #4. Tracage de la carte
