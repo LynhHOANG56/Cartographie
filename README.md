@@ -1,8 +1,12 @@
-# Cartographie d'ensemble des équipements sportifs selon départements, 2018
+# Cartographie d'ensemble des équipements sportifs 
 1. Importation du package
 
-2. Importation de la base de données : fichier “EquipementSportif.csv", "data.Rdata"
+2. Importation de la base de données : fichier “EquipementSportif_dep.csv", “EquipementSportif_reg.csv", "data.Rdata"
 
 3. Établissement de l'index : ficher "Example_EqSport.R"
 
-4. Tracage de la carte : fichier "EqSport2018.pdf"
+# A. selon départements, 2018
+4a. Tracage de la carte : fichier "EqSport2018_dep.pdf"
+
+# B. selon régions, 2018
+4b. Tracage de la carte : fichier "EqSport2018_reg.pdf"
